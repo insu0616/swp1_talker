@@ -1,0 +1,10 @@
+<h1> 공부한  것<h1>
+    
+ <% @talks.each do |t| %>
+ <li> <%= t.ask%> : <%=t.answer%> 
+   </li>
+   
+<%end%>
+ <a href="/learn">
+    <div class="back-button">가르치러가기</div>
+  </a> 
